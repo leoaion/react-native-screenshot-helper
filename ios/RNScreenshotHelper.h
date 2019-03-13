@@ -4,6 +4,8 @@
 #import "RCTBridgeModule.h"
 #endif
 
-@interface RNScreenshotHelper : NSObject <RCTBridgeModule>
+#import <React/RCTEventEmitter.h>
+
+@interface RNScreenshotHelper : RCTEventEmitter <RCTBridgeModule>
 
 @end
